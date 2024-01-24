@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		My Giro
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+	<main class="main-wrapper">
+		<header class="header">
+			<div class="wrapper">
+				<div class="header-content">
+					<a class="header-logotype_adress" href="#">
+						<img src="assets/logo-blue.png" class="header-logotype">
+					</a>
+
+					<div class="header-menu">
+						<a href="tel:+78005553535" class="phone">+7(800)-555-35-35</a>
+						<div class="button">Оставить заявку</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="index-banner">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background: url('assets/ib-banner-1.jpg');">
+					<div class="wrapper">
+						<h1 class="ib-title">БОЛЬШОЙ АССОРТИМЕНТ</h1>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background: url('assets/ib-banner-2.jpg');">
+					<div class="wrapper">
+						<h1 class="ib-title">БЫСТРАЯ ДОСТАВКА</h1>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background: url('assets/ib-banner-3.jpg');">
+					<div class="wrapper">
+						<h1 class="ib-title">ГАРАНТИЯ КАЧЕСТВА</h1>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background: url('assets/ib-banner-4.jpg');">
+					<div class="wrapper">
+						<h1 class="ib-title">ОНЛАЙН-КОНСУЛЬТАНТ</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section_block">
+			<div class="wrapper">
+				<h3 class="section_title">Особенности</h3>
+				<div class="peculiar-scooters">
+					<img src="">
+				</div>
+			</div>
+		</section>
+	</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		const ibSwiper = new Swiper('.index-banner', {
+
+		})
+		
+	})
+</script>
+</body>
+</html>
